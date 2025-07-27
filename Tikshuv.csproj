@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <!-- ביטול יצירת רק TargetFrameworkAttribute אוטומטי -->
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    
+ <InternalsVisibleTo>Tikshuv.SignatureTests</InternalsVisibleTo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Logic\Osher\**" />
+    <EmbeddedResource Remove="Logic\Osher\**" />
+    <None Remove="Logic\Osher\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="FrontEnd\FormPredictor.cs" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Compile Update="FrontEnd\SettingsWindow\Soliders\UpdateSoliderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrontEnd\StorageWindow\StorageManager\Deleting Equipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrontEnd\StorageWindow\StorageManager\ItemHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="resources\photos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControls" Version="3.4.5" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="7.0.13" />
+    <PackageReference Include="Microsoft.ML" Version="4.0.2" />
+    <PackageReference Include="MSOffice.Interop" Version="15.0.4815" />
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SimpleSockets" Version="1.2.20" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+    <PackageReference Include="System.Management" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DotCoolControls.DotCoolBase">
+      <HintPath>resources\DotCoolControlsLib\DotCoolControls.DotCoolBase.dll</HintPath>
+    </Reference>
+    <Reference Include="DotCoolControls.Tools">
+      <HintPath>resources\DotCoolControlsLib\DotCoolControls.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiferix.DotCoolGrid">
+      <HintPath>resources\DotCoolControlsLib\Tiferix.DotCoolGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiferix.Global">
+      <HintPath>resources\DotCoolControlsLib\Tiferix.Global.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+
+<ItemGroup>
+  <None Update="FrontEnd\HebrewClassifier.zip">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+  <None Update="HebrewClassifier.zip">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+  </None>
+</ItemGroup>
+
+</Project>

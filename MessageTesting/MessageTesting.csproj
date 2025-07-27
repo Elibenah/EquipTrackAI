@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- קודם מגדירים את מסגרת היעד -->
+    <TargetFramework>netstandard2.1</TargetFramework>
+
+    <!-- מבטלים רק את יצירת TargetFrameworkAttribute -->
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SimpleSockets\SimpleSockets.csproj" />
+  </ItemGroup>
+
+</Project>
