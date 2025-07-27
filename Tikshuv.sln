@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tikshuv", "Tikshuv\Tikshuv.csproj", "{0B3541DC-8A65-4BDC-A2A3-877BA424C7F6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TikshuvClientSetup", "TikshuvClientSetup\TikshuvClientSetup.vdproj", "{0E08F6D2-B1F9-40B2-A189-51A71C402215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3541DC-8A65-4BDC-A2A3-877BA424C7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3541DC-8A65-4BDC-A2A3-877BA424C7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3541DC-8A65-4BDC-A2A3-877BA424C7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3541DC-8A65-4BDC-A2A3-877BA424C7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E08F6D2-B1F9-40B2-A189-51A71C402215}.Debug|Any CPU.ActiveCfg = Debug
+		{0E08F6D2-B1F9-40B2-A189-51A71C402215}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30950446-9C25-457B-880C-330F16BA5E33}
+	EndGlobalSection
+EndGlobal
