@@ -1,0 +1,5 @@
+D:\FP\Tikshuv-master\SignatureTests\obj\Debug\net6.0\SignatureTests.csproj.AssemblyReference.cache
+D:\FP\Tikshuv-master\SignatureTests\obj\Debug\net6.0\SignatureTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\FP\Tikshuv-master\SignatureTests\obj\Debug\net6.0\SignatureTests.AssemblyInfoInputs.cache
+D:\FP\Tikshuv-master\SignatureTests\obj\Debug\net6.0\SignatureTests.AssemblyInfo.cs
+D:\FP\Tikshuv-master\SignatureTests\obj\Debug\net6.0\SignatureTests.csproj.CoreCompileInputs.cache
