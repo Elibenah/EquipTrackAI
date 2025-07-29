@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "5EIaa4/m65r8RVqzEffSlxilNadmnzNVBfWu7tiYk55XdozEP8YBYOQ5WHe8aCv/NPHS3if30MFU5SXi3iHSgw==",
+  "success": true,
+  "projectFilePath": "D:\\FP\\MLTrainer\\MLTrainer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Osher\\.nuget\\packages\\microsoft.ml\\4.0.2\\microsoft.ml.4.0.2.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\microsoft.ml.cpumath\\4.0.2\\microsoft.ml.cpumath.4.0.2.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\microsoft.ml.dataview\\4.0.2\\microsoft.ml.dataview.4.0.2.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\system.memory\\4.6.0\\system.memory.4.6.0.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\system.numerics.tensors\\8.0.0\\system.numerics.tensors.8.0.0.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Osher\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
