@@ -25,7 +25,7 @@ namespace TikshuvServer
             signatureManagment.signatureRequestHandling.initSignatureToMemory();
             PremissionReader.initSettingFile();
 
-            string ip = settingFile.GetValueFromFile(PremissionReader.path, "ServerIp").ToString();
+            string ip = Server.GetLocalIPAddress();
             object value = settingFile.GetValueFromFile(PremissionReader.path, "ServerPort");
 
             string port = string.IsNullOrEmpty(value?.ToString()) ? "9999" : value.ToString();
